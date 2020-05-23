@@ -30,12 +30,14 @@
     list-style: none;
     font-weight: bold;
     text-transform: uppercase;
+
 }
 
 .log ul li {
     margin: 5px;
-    text-align: right;
+    text-align: center;
     padding:5px;
+
 }
 
 .log ul .player-turno {
