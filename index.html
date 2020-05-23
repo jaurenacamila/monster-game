@@ -52,7 +52,7 @@
             <ul>
                 <li v-for="(turno,index) in turnos"
                 :class="cssEvento(turno)"
-                :style="{'text-align=text-center': turno.esJugador?'left':'right','opacity':index <=1?1:0.3}">
+                :style="{'text-align = text-center': turno.esJugador?'left':'right','opacity':index <=1?1:0.3}">
                     {{ turno.text }} 
                 </li>
             </ul>
