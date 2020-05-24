@@ -46,6 +46,7 @@
 }
 
 .log ul .monster-turno {
+    text-align: center;
     color:rgb(199, 129, 178);
     background-color:#ffc0c1;
     

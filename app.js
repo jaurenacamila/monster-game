@@ -25,7 +25,7 @@ new Vue({
             var heridas = this.calcularHeridas(this.rangoAtaque);
             this.saludMonstruo -= heridas;
             this.turnos.unshift({
-                isPlayer: true,
+                esJugador: true,
                 text: 'El jugador golpea por: ' + heridas
             });
             if (this.verificarGanador()){
@@ -38,7 +38,7 @@ new Vue({
             var heridas = this.calcularHeridas(this.rangoAtaqueEspecial);
             this.saludMonstruo -= heridas;
             this.turnos.unshift({
-                isPlayer: true,
+                esJugador: true,
                 text: 'El jugador golpea por: ' + heridas
             });
             if (this.verificarGanador()){
@@ -54,7 +54,7 @@ new Vue({
                 this.saludJugador = 100;
             }
             this.turnos.unshift({
-                isPlayer: true,
+                esJugador: true,
                 text: 'El jugador está sanando +10 '
             });
             this.ataqueDelMonstruo();
@@ -73,7 +73,7 @@ new Vue({
             var heridas = this.calcularHeridas(this.rangoAtaqueDelMonstruo);
             this.saludJugador -= heridas;
             this.turnos.unshift({
-                isPlayer: false,
+                esJugador: false,
                 text: 'El monstruo golpea por: ' + heridas
             });
             this.verificarGanador();
