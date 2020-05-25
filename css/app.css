@@ -54,7 +54,7 @@
 
 button {
     font-size: 20px;
-    background-color: #eee;
+    background-color: #aaffb0;
     padding: 12px;
     box-shadow: 0 1px 1px black;
     margin: 10px;
@@ -65,23 +65,23 @@ button {
 }
 
 #empezar-partida:hover {
-    background-color: #76ff7e;
+    background-color: #4dff58;
 }
 
 #atacar {
-    background-color: #ff7367;
+    background-color: #aaffb0;
 }
 
 #atacar:hover {
-    background-color: #ff3f43;
+    background-color: #4dff58;
 }
 
 #ataque-especial {
-    background-color: #ffaf4f;
+    background-color: #aaffb0;
 }
 
 #ataque-especial:hover {
-    background-color: #ff9a2b;
+    background-color: #4dff58;
 }
 
 #curar {
@@ -89,13 +89,13 @@ button {
 }
 
 #curar:hover {
-    background-color: #76ff7e;
+    background-color: #4dff58;
 }
 
 #rendirse {
-    background-color: #ffffff;
+    background-color: #aaffb0;
 }
 
 #rendirse:hover {
-    background-color: #c7c7c7;
+    background-color: #4dff58;
 }

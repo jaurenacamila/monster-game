@@ -60,10 +60,6 @@ new Vue({
             this.ataqueDelMonstruo();
         },
 
-        registrarEvento(evento) {
-
-        },
-
         terminarPartida: function () {
             this.hayUnaPartidaEnJuego = false;
             this.turnos = [];
