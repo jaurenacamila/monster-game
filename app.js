@@ -76,7 +76,9 @@ new Vue({
         },
 
         calcularHeridas: function (rango) {
-            return Math.max(Math.floor(Math.random()* rango[1]) + 1, rango[0]);
+            let min = rango[0];
+            let max = rango[1];
+            return Math.max(Math.floor(Math.random()* max) + 1, min);
         },
 
         verificarGanador: function () {
