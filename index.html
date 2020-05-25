@@ -51,7 +51,7 @@
             <ul>
                 <li v-for="(turno,index) in turnos"
                 :class="cssEvento(turno)"
-                :style="{'text-align': center,'opacity':index <=1?1:0.3}">
+                :style="{'text-align': turno.esJugador? 'left' : 'right' ,'opacity':index <=1?1:0.5}">
                     {{ turno.text }} 
                 </li>
             </ul>

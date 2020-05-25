@@ -41,61 +41,61 @@
 }
 
 .log ul .player-turno {
-    color: rgb(0, 140, 255);
-    background-color: #e4e8ff;
+    color: rgb(39, 97, 131);
+    background-color: #b3beff;
 }
 
 .log ul .monster-turno {
     text-align: center;
-    color:rgb(199, 129, 178);
+    color:rgb(206, 98, 165);
     background-color:#ffc0c1;
     
 }
 
 button {
     font-size: 20px;
-    background-color: #aaffb0;
+    background-color: #c5ccc6;
     padding: 12px;
     box-shadow: 0 1px 1px black;
     margin: 10px;
 }
 
 #empezar-partida {
-    background-color: #aaffb0;
+    background-color: #c5ccc6;
 }
 
 #empezar-partida:hover {
-    background-color: #4dff58;
+    background-color: #a5a7a5;
 }
 
 #atacar {
-    background-color: #aaffb0;
+    background-color: #c5ccc6;
 }
 
 #atacar:hover {
-    background-color: #4dff58;
+    background-color: #a5a7a5;
 }
 
 #ataque-especial {
-    background-color: #aaffb0;
+    background-color: #c5ccc6;
 }
 
 #ataque-especial:hover {
-    background-color: #4dff58;
+    background-color: #a5a7a5;
 }
 
 #curar {
-    background-color: #aaffb0;
+    background-color: #c5ccc6;
 }
 
 #curar:hover {
-    background-color: #4dff58;
+    background-color: #a5a7a5;
 }
 
 #rendirse {
-    background-color: #aaffb0;
+    background-color: #c5ccc6;
 }
 
 #rendirse:hover {
-    background-color: #4dff58;
+    background-color: #a5a7a5;
 }
